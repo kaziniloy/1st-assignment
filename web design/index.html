@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>welcome to my website</title>
+	<style>
+		table{
+			width: 80%;
+			margin: 0 auto;
+		}
+		table, th, td{
+			border: 1px solid #666;
+			border-collapse: collapse;
+			padding: 8px;
+		}
+		th{
+			background-color: maroon;
+			color: #f5f5f5;
+		}
+		td{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+     <table>
+     	<thead>
+     		<tr>
+     			<th>sl</th>
+     			<th>tag name</th>
+     			<th>tag description</th>
+     			<th>example</th>
+     		</tr>
+     	</thead>
+     	<tbody>
+     		<tr>
+     			<td>1</td>
+     			<td>a</td>
+     			<td>defines a hyperlink</td>
+     			<td><xmp><a href=" ">main</a></xmp></td>
+     		</tr>
+     		<tr>
+     			<td>2</td>
+     			<td>abbr</td>
+     			<td>defines an abbreviation</td>
+     			<td><xmp><abbr tittle="">who</abbr></xmp></td>
+     		</tr>
+     		<tr>
+     			<td>3</td>
+     			<td>!doctype</td>
+     			<td>defines the document type</td>
+     			<td></td>
+     		</tr>
+     		<tr>
+     			<td>4</td>
+     			<td>address</td>
+     			<td>defines contact information for the author</td>
+     			<td><xmp><address><a href="">jon doe</a></address></xmp></td>
+     		</tr>
+     		<tr>
+     			<td>5</td>
+     			<td>audio</td>
+     			<td>defines sound content</td>
+     			<td><xmp><audio controls><source src="" type=""></audio></xmp></td>
+     		</tr>
+     		<tr>
+     			<td>6</td>
+     			<td>b</td>
+     			<td>defines bold text</td>
+     			<td><xmp><b>name</b></xmp></td>
+     		</tr>
+     		<tr>
+     			<td>7</td>
+     			<td>base</td>
+     			<td>specifies the base url</td>
+     			<td><xmp><base href="" target=""></xmp></td>
+     		</tr>
+     		<tr>
+     			<td>8</td>
+     			<td>bdo</td>
+     			<td>override the current direction</td>
+     			<td>
+     			    <xmp>
+     				   <bdo dir="">
+     					this text will go right to left
+     				   </bdo>
+     			    </xmp>
+     			</td>
+     		</tr>
+     		<tr>
+     			<td>9</td>
+     			<td>br</td>
+     			<td>defines a single line break</td>
+     			<td><xmp>this text contains<br>aline break</xmp></td>
+     		</tr>
+     		<tr>
+     			<td>10</td>
+     			<td>button</td>
+     			<td>defines a clickable button</td>
+     			<td><xmp><button type="">click!</button></td>
+     		</tr>
+     		<tr>
+     			<td>11</td>
+     			<td>caption</td>
+     			<td>defines a table caption</td>
+     			<td><xmp><caption>savings</caption></xmp></td>
+     		</tr>
+     		<tr>
+     			<td>12</td>
+     			<td>code</td>
+     			<td>defines apiece of computer code</td>
+     			<td><xmp><code>a piece of computer code</code></xmp></td>
+     		</tr>
+     		<tr>
+     			<td>13</td>
+     			<td>col</td>
+     			<td>specifies column properties for each column within a <colgroup> element</td>
+     			<td><xmp><col span="" style=""></xmp></td>
+     		</tr>
+     		<tr>
+     			<td>14</td>
+     			<td>data</td>
+     			<td>links the given content with a m achine-readable translation</td>
+     			<td><xmp><data value="">snack tomato</data></td>
+     		</tr>
+     		<tr>
+     			<td>15</td>
+     			<td>datalist</td>
+     			<td>specifies a list of pre-defind option for input controls</td>
+     			<td><xmp><datalist id=""></datalist></xmp></td>
+     		</tr>
+     		<tr>
+     			<td>16</td>
+     			<td>del</td>
+     			<td>defines tex that has been deleted from a document</td>
+     			<td><xmp><p>my favourite colour is<del>blue</del><ins>red</ins></p></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>17</td>
+       			<td>details</td>
+       			<td>defines additional details that the user can view or hide</td>
+       			<td>
+       			    <xmp>
+       				    <details>
+       					    <summary>copyright 1999-2018</summary>
+       					    <P>by refsnes data.all right reserved</P>
+       				    </details>
+       		        </xmp>
+       		   </td>
+       		</tr>
+       		<tr>
+       			<td>18</td>
+       			<td>dfn</td>
+       			<td>represents the defining instance of a term</td>
+       			<td><xmp><p><dfn>html</dfn>is the standard languiage for creating web page</p></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>19</td>
+       			<td>dialog</td>
+       			<td>defines a dialog box</td>
+       			<td><xmp><dialog open>this is the open dialog window</dialog></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>20</td>
+       			<td>div</td>
+       			<td>defines a section in a document</td>
+       			<td><xmp><div style=""></div></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>21</td>
+       			<td>dl</td>
+       			<td>defines adescription list</td>
+       			<td><xmp><dl><dt>coffe</dt></dl></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>22</td>
+       			<td>dt</td>
+       			<td>defines a term</td>
+       			<td><xmp><dt>milk</dt></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>23</td>
+       			<td>em</td>
+       			<td>defines emphasized text</td>
+       			<td><xmp><em>emphasized text</em></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>24</td>
+       			<td>h1</td>
+       			<td>defines html heading</td>
+       			<td><xmp><h1>name</h1></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>25</td>
+       			<td>head</td>
+       			<td>defines information about the document</td>
+       			<td>
+       				<xmp>
+       					<head>
+       						<title>your name</title>
+       					</head>
+       				</xmp>
+       			</td>
+       		</tr>
+       		<tr>
+       			<td>26</td>
+       			<td>hr</td>
+       			<td>defines a themetic change in the content</td>
+       			<td>
+       				<xmp>
+       					<h1>a</h1>
+       					<P>b</P>
+       					<hr>
+       					<p>f</p>
+       				</xmp>
+       			</td>
+       		</tr>
+       		<tr>
+       			<td>27</td>
+       			<td>html</td>
+       			<td>defines the root of html document</td>
+       			<td>
+       				<xmp>
+       					<html>
+       					<head>
+       						<title>title</title>
+       					</head>
+       						<body>
+       							
+       						</body>
+       					</html>
+       				</xmp>
+       			</td>
+       		</tr>
+       		<tr>
+       			<td>28</td>
+       			<td>i</td>
+       			<td>italic</td>
+       			<td><xmp><i>name</i></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>29</td>
+       			<td>iframe</td>
+       			<td>defines an inline frame</td>
+       			<td><xmp><iframe src=""></iframe></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>30</td>
+       			<td>img</td>
+       			<td>defines an image</td>
+       			<td><xmp><img src=""></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>31</td>
+       			<td>input</td>
+       			<td>defines an input control</td>
+       			<td><xmp><input type="" value=""></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>32</td>
+       			<td>label</td>
+       			<td>defines a label</td>
+       			<td><xmp><label for="">male</label></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>33</td>
+       			<td>li</td>
+       			<td>defines a list item</td>
+       			<td><xmp><li>milk</li></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>34</td>
+       			<td>map</td>
+       			<td>defines a client side image map</td>
+       			<td><xmp><map name=""></map></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>35</td>
+       			<td>mark</td>
+       			<td>defines marked</td>
+       			<td><xmp><mark>tea</mark></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>36</td>
+       			<td>meta</td>
+       			<td>defines metadata about an html document</td>
+       			<td><xmp><meta charset=""></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>37</td>
+       			<td>object</td>
+       			<td>defines a embedded object</td>
+       			<td><xmp><object width="" height="" data=""></object></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>38</td>
+       			<td>ol</td>
+       			<td>defines a order list</td>
+       			<td>
+       				<xmp>
+       					<ol>
+       						<li>tea</li>
+       					</ol>
+       				</xmp>
+       			</td>
+       		</tr>
+       		<tr>
+       			<td>39</td>
+       			<td>option</td>
+       			<td>defines an option in a drop down list</td>
+       			<td><xmp><option value="">hamko</option></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>40</td>
+       			<td>p</td>
+       			<td>defines a paragraph</td>
+       			<td><xmp><p>this is some text in aparagraph</p></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>41</td>
+       			<td>param</td>
+       			<td>defines a parameter for a object</td>
+       			<td><xmp><param name="" value=""></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>42</td>
+       			<td>pre</td>
+       			<td>defines preformatted text</td>
+       			<td>
+       				<xmp>
+       					<pre>
+       						this ia pre elementis displayed in 
+       						a fixed-width font
+       					</pre>
+       				</xmp>
+       			</td>
+       		</tr>
+       		<tr>
+       			<td>43</td>
+       			<td>progress</td>
+       			<td>represents the progress of a task</td>
+       			<td><xmp><progress value="" max=""></progress></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>44</td>
+       			<td>q</td>
+       			<td>defines a short quotation</td>
+       			<td><xmp><q>nature</q></td>
+       		</tr>
+       		<tr>
+       			<td>45</td>
+       			<td>ruby</td>
+       			<td>defines a ruby annotation</td>
+       			<td></td>
+       		</tr>
+       		<tr>
+       			<td>46</td>
+       			<td>s</td>
+       			<td>defines text that is no longer correct</td>
+       			<td><xmp><p><s>my car is blue</s></p></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>47</td>
+       			<td>samp</td>
+       			<td>defines sample output from a computer program</td>
+       			<td><xmp><samp>sample output from acomputer program</samp></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>48</td>
+       			<td>script</td>
+       			<td>defines a client- side script</td>
+       			<td>
+       				<xmp>
+       					<script type=""></script>
+       				</xmp>
+       			</td>
+       		</tr>
+       		<tr>
+       			<td>49</td>
+       			<td>section</td>
+       			<td>defines a section in a document</td>
+       			<td>
+       				<xmp>
+       					<section>
+       						<h1>wwf</h1>
+       						<p>the world wide found</p>
+       					</section>
+       				</xmp>
+       			</td>
+       		</tr>
+       		<tr>
+       			<td>50</td>
+       			<td>select</td>
+       			<td>defines a drop down list</td>
+       			<td>
+       				<xmp>
+       					<select>
+       						<option>tea</option>
+       						<option>milk</option>
+       					</select>
+       				</xmp>
+       			</td>
+       		</tr>
+       		<tr>
+       			<td>51</td>
+       			<td>small</td>
+       			<td>defines smaller text</td>
+       			<td><xmp><small>copyright1999-2020</small></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>52</td>
+       			<td>source</td>
+       			<td>defines multiple media resource for media element</td>
+       			<td><xmp><source src="" type=""></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>53</td>
+       			<td>span</td>
+       			<td>defines a section in a document</td>
+       			<td><xmp><span style="">blue</span></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>54</td>
+       			<td>strong</td>
+       			<td>defines importent text</td>
+       			<td><xmp><strong>strong text</strong></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>55</td>
+       			<td>sub</td>
+       			<td>defines subcripted text</td>
+       			<td><xmp><sub>down</sub></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>56</td>
+       			<td>svg</td>
+       			<td>defines a container for svg graphics</td>
+       			<td><xmp><svg width="" height=""></svg></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>57</td>
+       			<td>sup</td>
+       			<td>defines superscripted text</td>
+       			<td><xmp><sup>up</sup></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>58</td>
+       			<td>template</td>
+       			<td>defines a template</td>
+       			<td>
+       				<xmp>
+       					<template>
+       						<h2>flower</h2>
+       					</template>
+       				</xmp>
+       			</td>
+       		</tr>
+       		<tr>
+       			<td>59</td>
+       			<td>time</td>
+       			<td>defines a date</td>
+       			<td><xmp><time>10.00</time></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>60</td>
+       			<td>track</td>
+       			<td>defines text tracs for media elemets</td>
+       			<td><xmp><track kind="" src=""></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>61</td>
+       			<td>u</td>
+       			<td>defines text that should be stylistically different from normal text</td>
+       			<td><xmp><u>paragraph</u></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>61</td>
+       			<td>var</td>
+       			<td>defines a variable</td>
+       			<td><xmp><var>variable</var></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>62</td>
+       			<td>video</td>
+       			<td>defines a video</td>
+                 <td><xmp><video width="" height="" controls=""></video></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>63</td>
+       			<td>wbr</td>
+       			<td>defines a possible line break</td>
+       			<td><xmp><wbr>http</xmp></td></td>
+       		</tr>
+       		<tr>
+       			<td>64</td>
+       			<td>ul</td>
+       			<td>defines a unorder list</td>
+       			<td>
+       				<xmp>
+       					<ul>
+       						<li>coffee</li>
+       					</ul>
+       				</xmp>
+       			</td>
+       		</tr>
+       		<tr>
+       			<td>65</td>
+       			<td>textarea</td>
+       			<td>defines a multiple input control</td>
+       			<td><xmp><textarea rows="" cols=""></textarea></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>66</td>
+       			<td>summary</td>
+       			<td>defines a visible heading for a element</td>
+       			<td><xmp><summary>copyright</summary></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>67</td>
+       			<td>rp</td>
+       			<td>defines what to show in browser that do not support ruby annotations</td>
+       			<td></td>
+       		</tr>
+       		<tr>
+       			<td>68</td>
+       			<td>rt</td>
+       			<td>defines aexplanation</td>
+       			<td></td>
+       		</tr>
+       		<tr>
+       			<td>69</td>
+       			<td>noscript</td>
+       			<td>defines a alternative content for users  that do not support clint side script</td>
+       			<td><xmp><noscript>your browser does not support javascript</noscript></xmp></td>
+       		</tr>
+       		<tr>
+       			<td>70</td>
+       			<td>nav</td>
+       			<td>defines navigation link</td>
+       			<td></td>
+       		</tr>
+     	</tbody>
+     </table>
+</body>
+</html>
